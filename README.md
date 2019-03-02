@@ -23,5 +23,14 @@ This is a test repo I have created for reference for the live demo I will be doi
 1. [Nuxt Auth](https://auth.nuxtjs.org/)
 
 
+### Steps
 
+#### The First Step
+
+1. Added a layout for building listing. Links for design "inspirations".
+    - [Menu Design from here](https://tailwindcss.com/docs/examples/navigation/#responsive-header)
+1. Added a layout for login. Layout and page design from here
+    - [Page Design from here](https://tailwindcss.com/docs/examples/forms/#login-form)
+1. Added a page to list buildings
+    - [Card Design from here](https://tailwindcss.com/docs/examples/cards/#horizontal)
 
