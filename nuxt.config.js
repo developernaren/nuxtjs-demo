@@ -42,6 +42,7 @@ module.exports = {
   */
   modules: [
     '@nuxtjs/axios',
+    '@nuxtjs/auth',
   ],
 
   /*
@@ -56,8 +57,34 @@ module.exports = {
     }
   },
   serverMiddleware: [
-    { path: '/api/buildings', handler: '~/api/buildings.js' }
+    { path: '/api/buildings', handler: '~/api/buildings.js' },
+    { path: '/api/login', handler: '~/api/login.js' },
+    { path: '/api/logout', handler: '~/api/logout.js' },
+    { path: '/api/user', handler: '~/api/user.js' },
   ],
+  auth: {
+    cookie: {
+      prefix: '',
+      options: {
+        path: '/'
+      }
+    },
+    redirect: {
+      login: '/login',
+      logout: '/',
+      callback: '/login',
+      home: '/'
+    },
+    strategies: {
+      local: {
+        endpoints: {
+          login: { url: '/api/login', method: 'post', propertyName: 'token' },
+          logout: { url: '/api/logout', method: 'post' },
+          user: { url: '/api/user', method: 'get', propertyName: 'data' }
+        },
+      }
+    }
+  },
   axios : {
     baseURL : config.get('API_BASE_URL')
   }

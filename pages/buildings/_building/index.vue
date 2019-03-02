@@ -14,6 +14,7 @@
 <script>
 
   export default {
+    middleware :'auth',
     async asyncData({ $axios, params }) {
 
       const buildings = (await $axios.get('/api/buildings')).data

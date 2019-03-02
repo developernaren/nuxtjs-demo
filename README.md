@@ -46,3 +46,10 @@ This is a test repo I have created for reference for the live demo I will be doi
 1. Added a detail page for building details
    - [Menu Design from here](https://tailwindcss.com/docs/examples/cards/#stacked)
    
+#### 4. The Fourth Step
+
+1. Added endpoint to accept email and password for authentication.
+1. Added endpoint to get detail of the authenticated user.
+1. Added login and logout functionality for frontend.
+1. Added a condition so that only authenticated user can see the detail page.
+   
