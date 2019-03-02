@@ -34,3 +34,11 @@ This is a test repo I have created for reference for the live demo I will be doi
 1. Added a page to list buildings
     - [Card Design from here](https://tailwindcss.com/docs/examples/cards/#horizontal)
 
+#### The Second Step
+
+1. Added [Nuxt Axios](https://axios.nuxtjs.org/) to the project.
+1. Added endpoint `api/buildings` that return a list of buildings.
+    *Since Nuxtjs basically is a nodeJs server. We can add routes and consume them*
+1. Consumed the created endpoint to make the list of buildings dynamic.
+
+

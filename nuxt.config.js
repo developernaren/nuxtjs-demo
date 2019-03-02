@@ -1,5 +1,5 @@
 const pkg = require('./package')
-
+const config = require("config")
 
 module.exports = {
   mode: 'universal',
@@ -41,6 +41,7 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
   ],
 
   /*
@@ -53,5 +54,11 @@ module.exports = {
     extend(config, ctx) {
       
     }
+  },
+  serverMiddleware: [
+    { path: '/api/buildings', handler: '~/api/buildings.js' }
+  ],
+  axios : {
+    baseURL : config.get('API_BASE_URL')
   }
 }
