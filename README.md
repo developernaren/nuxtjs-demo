@@ -1,4 +1,4 @@
-## NuxtJs Demo
+# NuxtJs Demo
 
 ### What we are building
 
@@ -23,9 +23,9 @@ This is a test repo I have created for reference for the live demo I will be doi
 1. [Nuxt Auth](https://auth.nuxtjs.org/)
 
 
-### Steps
+## __Steps__
 
-#### 1. The First Step
+## I. The First Step
 
 1. Added a layout for building listing. Links for design "inspirations".
     - [Menu Design from here](https://tailwindcss.com/docs/examples/navigation/#responsive-header)
@@ -34,22 +34,26 @@ This is a test repo I have created for reference for the live demo I will be doi
 1. Added a page to list buildings
     - [Card Design from here](https://tailwindcss.com/docs/examples/cards/#horizontal)
 
-#### 2. The Second Step
+## II. The Second Step
 
 1. Added [Nuxt Axios](https://axios.nuxtjs.org/) to the project.
 1. Added endpoint `api/buildings` that return a list of buildings.
     *Since Nuxtjs basically is a nodeJs server. We can add routes and consume them*
 1. Consumed the created endpoint to make the list of buildings dynamic.
 
-#### 3. The Third Step
+## III. The Third Step
 
 1. Added a detail page for building details
    - [Menu Design from here](https://tailwindcss.com/docs/examples/cards/#stacked)
    
-#### 4. The Fourth Step
+## IV. The Fourth Step
 
 1. Added endpoint to accept email and password for authentication.
 1. Added endpoint to get detail of the authenticated user.
 1. Added login and logout functionality for frontend.
 1. Added a condition so that only authenticated user can see the detail page.
    
+## V. The Fifth Step
+
+1. Added seo for the homepage
+

@@ -37,6 +37,13 @@
       return {
           buildings
       }
+    },
+    head : {
+      title : 'List of Tallest Buildings in the world',
+      meta: [
+        { hid: 'description', name: 'description', content: 'This is the description of the list page' },
+        { hid: 'og:image', name: 'og:image', content: process.env.baseUrl + '/marina-23.jpg' },
+      ],
     }
   }
 </script>

@@ -2,6 +2,9 @@ const pkg = require('./package')
 const config = require("config")
 
 module.exports = {
+  env : {
+    baseUrl : config.get('BASE_URL')
+  },
   mode: 'universal',
 
   /*
