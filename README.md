@@ -57,3 +57,8 @@ This is a test repo I have created for reference for the live demo I will be doi
 
 1. Added seo for the homepage
 
+## VI. The Sixth Step
+
+1. Deploy to Heroku
+
+
