@@ -5,7 +5,7 @@ export default function (req, res, next) {
   const users = [
     { email : 'naren@dubicars.com', password: 'dubicars', name : "Naren", token : 'naren'},
     { email : 'riaz@dubicars.com', password: 'dubicars', name : "Riaz", token : 'riaz'},
-    { email : 'salaam@dubicars.com', password: 'dubicars', name : "Salaam", token : 'salaam'},
+    { email : 'salam@dubicars.com', password: 'dubicars', name : "Salam", token : 'salam'},
     { email : 'darko@dubicars.com', password: 'dubicars', name : "Darko", token : 'darko'},
   ];
 
