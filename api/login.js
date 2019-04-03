@@ -6,7 +6,7 @@ export default function (req, res, next) {
   const users = [
     { email : 'naren@dubicars.com', password: 'dubicars', name : "Naren", token : 'naren'},
     { email : 'riaz@dubicars.com', password: 'dubicars', name : "Riaz", token : 'riaz'},
-    { email : 'salaam@dubicars.com', password: 'dubicars', name : "Salaam", token : 'salaam'},
+    { email : 'salam@dubicars.com', password: 'dubicars', name : "Salam", token : 'salam'},
     { email : 'darko@dubicars.com', password: 'dubicars', name : "Darko", token : 'darko'},
   ];
 
@@ -17,6 +17,6 @@ export default function (req, res, next) {
     return
   }
 
-  res.status(401).send({ message : 'Wong Username/Password'})
+  res.status(401).send({ message : 'Wrong Username/Password'})
 
 }
